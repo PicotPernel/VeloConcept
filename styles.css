@@ -1,0 +1,94 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    margin: 20px;
+}
+
+h1 
+{
+    color: #ffffff;
+    text-align: center;
+}
+
+select 
+{
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    border: 2px solid #2b2b2b;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th 
+{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td 
+{
+    border: 1px solid #2b2b2b;
+    padding: 8px;
+    color: #e0e0e0;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #181818;
+}
+
+tr:hover td 
+{
+    background-color: #353535;
+}
+
+button 
+{
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.03);
+}
+
+.center 
+{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+}
+
+.border 
+{
+     border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    box-shadow: 0 0 10px #00000066;
+}
